@@ -1,0 +1,13 @@
+C:\Users\leo21\source\repos\Progra3.TPO\Progra3.TPO\bin\Debug\netcoreapp3.1\Progra3.TPO.exe
+C:\Users\leo21\source\repos\Progra3.TPO\Progra3.TPO\bin\Debug\netcoreapp3.1\Progra3.TPO.deps.json
+C:\Users\leo21\source\repos\Progra3.TPO\Progra3.TPO\bin\Debug\netcoreapp3.1\Progra3.TPO.runtimeconfig.json
+C:\Users\leo21\source\repos\Progra3.TPO\Progra3.TPO\bin\Debug\netcoreapp3.1\Progra3.TPO.runtimeconfig.dev.json
+C:\Users\leo21\source\repos\Progra3.TPO\Progra3.TPO\bin\Debug\netcoreapp3.1\Progra3.TPO.dll
+C:\Users\leo21\source\repos\Progra3.TPO\Progra3.TPO\bin\Debug\netcoreapp3.1\Progra3.TPO.pdb
+C:\Users\leo21\source\repos\Progra3.TPO\Progra3.TPO\obj\Debug\netcoreapp3.1\Progra3.TPO.csprojAssemblyReference.cache
+C:\Users\leo21\source\repos\Progra3.TPO\Progra3.TPO\obj\Debug\netcoreapp3.1\Progra3.TPO.AssemblyInfoInputs.cache
+C:\Users\leo21\source\repos\Progra3.TPO\Progra3.TPO\obj\Debug\netcoreapp3.1\Progra3.TPO.AssemblyInfo.cs
+C:\Users\leo21\source\repos\Progra3.TPO\Progra3.TPO\obj\Debug\netcoreapp3.1\Progra3.TPO.csproj.CoreCompileInputs.cache
+C:\Users\leo21\source\repos\Progra3.TPO\Progra3.TPO\obj\Debug\netcoreapp3.1\Progra3.TPO.dll
+C:\Users\leo21\source\repos\Progra3.TPO\Progra3.TPO\obj\Debug\netcoreapp3.1\Progra3.TPO.pdb
+C:\Users\leo21\source\repos\Progra3.TPO\Progra3.TPO\obj\Debug\netcoreapp3.1\Progra3.TPO.genruntimeconfig.cache
