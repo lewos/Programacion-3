@@ -9,48 +9,6 @@ namespace Progra3.TPO
     {
         static void Main(string[] args)
         {
-            //Console.WriteLine("Hello World!");
-
-            //var prueba = new GrafoDirigido<string>();
-            //prueba.agregarVertice(0);
-            //prueba.agregarVertice(1);
-            //prueba.agregarArco(0, 1, "a");
-
-            //Console.WriteLine(prueba.contieneVertice(0));
-            //Console.WriteLine(prueba.contieneVertice(1));
-            //Console.WriteLine(prueba.contieneVertice(2));
-
-            //Console.WriteLine(prueba.existeArco(0, 1));
-            //Console.WriteLine(prueba.existeArco(0, 2));
-
-
-
-            /////hasta aca dsp ver si esta implementado correctamente
-            //prueba.borrarVertice(1);
-            //prueba.borrarVertice(2);
-
-            //prueba.borrarArco(0, 1);
-            //prueba.borrarArco(0, 2);
-
-
-            //Console.WriteLine(prueba.cantidadVertices());
-            //Console.WriteLine(prueba.cantidadArcos());
-
-
-            //prueba.obtenerArco(0, 1);
-            //prueba.obtenerArco(0, 2);
-            //prueba.obtenerArco(1, 2);
-
-            //prueba.obtenerAdyacentes(0);
-
-            //prueba.obtenerArcos(0);
-
-            //prueba.obtenerArcos();
-
-            //prueba.obtenerVertices();
-
-
-
             GrafoNoDirigido<string> grafoNoDirigido = new GrafoNoDirigido<string>();
 
             grafoNoDirigido.agregarVertice(1);
@@ -61,24 +19,39 @@ namespace Progra3.TPO
             grafoNoDirigido.agregarVertice(6);
             grafoNoDirigido.agregarVertice(7);
             grafoNoDirigido.agregarVertice(8);
-            grafoNoDirigido.agregarArco(1, 2,"a");
-            grafoNoDirigido.agregarArco(1, 5,"b");
-            grafoNoDirigido.agregarArco(2, 3,"c");
-            grafoNoDirigido.agregarArco(2, 6,"d");
-            grafoNoDirigido.agregarArco(3, 4,"e");
-            grafoNoDirigido.agregarArco(3, 7,"f");
-            grafoNoDirigido.agregarArco(4, 5,"g");
-            grafoNoDirigido.agregarArco(4, 7,"h");
-            grafoNoDirigido.agregarArco(4, 8,"i");
-            grafoNoDirigido.agregarArco(5, 8,"j");
-            grafoNoDirigido.agregarArco(6, 7,"k");
-            grafoNoDirigido.agregarArco(7, 8,"l");
+            grafoNoDirigido.agregarArco(1, 2, "a");
+            grafoNoDirigido.agregarArco(1, 5, "b");
+            grafoNoDirigido.agregarArco(2, 3, "c");
+            grafoNoDirigido.agregarArco(2, 6, "d");
+            grafoNoDirigido.agregarArco(3, 4, "e");
+            grafoNoDirigido.agregarArco(3, 7, "f");
+            grafoNoDirigido.agregarArco(4, 5, "g");
+            grafoNoDirigido.agregarArco(4, 7, "h");
+            grafoNoDirigido.agregarArco(4, 8, "i");
+            grafoNoDirigido.agregarArco(5, 8, "j");
+            grafoNoDirigido.agregarArco(6, 7, "k");
+            grafoNoDirigido.agregarArco(7, 8, "l");
+
+            Console.WriteLine("a. DFS");
+            Console.WriteLine("b. BFS");
+            Console.WriteLine("Escribe una de las opciones");
+            var opcion = Console.ReadLine();
+
+            Console.WriteLine(opcion);
 
 
-            DFS(grafoNoDirigido, 4);
-            BFS(grafoNoDirigido, 4);
-
-
+            switch (opcion)
+            {
+                case "a":
+                    DFS(grafoNoDirigido, 4);
+                    break;
+                case "b":
+                    BFS(grafoNoDirigido, 4);
+                    break;
+                default:
+                    Console.WriteLine("Elegir una de las opciones correctas");
+                    break;
+            }
         }
 
 
@@ -96,6 +69,7 @@ namespace Progra3.TPO
             {
                 // saco un nodo de la pila
                 int verticeActual = pila.Pop();
+                Console.WriteLine($"Se saco de la pila el elemento {verticeActual}");
 
                 // Para ver los elementos actuales de la pila
                 ImprimirPila(pila);                
@@ -151,6 +125,8 @@ namespace Progra3.TPO
             {
                 // saco un nodo de la pila
                 int verticeActual = cola.Dequeue();
+
+                Console.WriteLine($"Se saco de la cola el elemento {verticeActual}");
 
                 // Para ver los elementos actuales de la cola
                 ImprimirCola(cola);
